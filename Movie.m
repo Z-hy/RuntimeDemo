@@ -11,6 +11,8 @@
 
 @implementation Movie
 
+//3.实现字典转模型的自动转换
+
 - (void)encodeWithCoder:(NSCoder *)aCoder {
     /*
     [aCoder encodeObject:_movieId forKey:@"id"];
