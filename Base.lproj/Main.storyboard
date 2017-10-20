@@ -38,7 +38,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6l-ly-RKD">
-                                <rect key="frame" x="77" y="471" width="221" height="30"/>
+                                <rect key="frame" x="77" y="295" width="221" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="RunTimeMessageViewController"/>
                                 <connections>
@@ -46,7 +46,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9j-Gc-vkb">
-                                <rect key="frame" x="81" y="522" width="213" height="30"/>
+                                <rect key="frame" x="81" y="346" width="213" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="RunTimeMethodViewController"/>
                                 <connections>
@@ -54,11 +54,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0f-O1-pJK">
-                                <rect key="frame" x="50" y="577" width="275" height="30"/>
+                                <rect key="frame" x="50" y="401" width="275" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="RunTimeMethodInterceptViewController"/>
                                 <connections>
                                     <action selector="goToMethodInterceptViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SEE-uJ-EMe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cS6-S6-9Up">
+                                <rect key="frame" x="76" y="438" width="223" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="RunTimeCategoryViewController"/>
+                                <connections>
+                                    <action selector="goToRunTimeCategoryViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENh-Tg-pi9"/>
                                 </connections>
                             </button>
                         </subviews>
